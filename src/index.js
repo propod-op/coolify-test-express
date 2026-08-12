@@ -25,7 +25,7 @@ app.post("/api/items", (req, res) => {
 app.get("/", (req, res) => {
   res
     .status(200)
-    .send("<h1>Le code à changé et le workflow à fonctionné !!!</h1>");
+    .send("<h1>Le code à encore changé et le workflow à fonctionné !!!</h1>");
 });
 
 app.listen(PORT, () => {
